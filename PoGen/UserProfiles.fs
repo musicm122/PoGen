@@ -77,9 +77,7 @@ module UserProfiles =
               WrapPanel.children
                   [ for user in state.users do
                       yield userProfile user ] ]
-
-
-
+            
     type Host() as this =
         inherit Hosts.HostControl()
         do

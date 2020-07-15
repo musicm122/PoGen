@@ -144,3 +144,16 @@ type Model =
       ConnectionString: ConnectionStringItem
       CurrentFormState: FormState
       Output: string }
+    
+let defaultModel () =
+        { OutputLocation = DefaultOutputPath
+          CurrentFormState = Idle
+          Databases = []
+          Languages = DefaultLanguages
+          Tables = []
+          SelectedDatabase = None
+          SelectedLanguage = CSharp
+          SelectedTables = []
+          CodeGenPageState = PageState.Init
+          ConnectionString = EmptyConnectionStringItem
+          Output = String.Empty }

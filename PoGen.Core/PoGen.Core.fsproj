@@ -9,6 +9,7 @@
     <Compile Include="Library.fs" />
     <Compile Include="Validation.fs" />
     <Compile Include="CSharpFormatting.fs" />
+    <Compile Include="DataAccess.fs" />
     <Compile Include="Generator.fs" />
   </ItemGroup>
   <ItemGroup>

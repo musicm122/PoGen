@@ -6,7 +6,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="UserProfiles.fs" />
+        <Compile Include="Messages.fs" />
+        <Compile Include="Components.fs" /> 
+        <Compile Include="UserProfiles.fs" /> 
+        <Compile Include="ConnectionPage.fs" />
         <Compile Include="TreeViewPage.fs" />
         <Compile Include="About.fs" />
         <Compile Include="Shell.fs" />

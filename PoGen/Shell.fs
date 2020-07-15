@@ -19,8 +19,7 @@ module Shell =
     type State =
         { aboutState: About.State }
 
-    type Msg =
-        | AboutMsg of About.Msg
+    type Msg = AboutMsg of About.Msg
 
     let init =
         let aboutState, bpCmd = About.init
@@ -37,7 +36,7 @@ module Shell =
             let aboutState, cmd =
                 About.update bpmsg state.aboutState
             { state with aboutState = aboutState },
-            /// map the message to the kind of message 
+            /// map the message to the kind of message
             /// your child control needs to handle
             Cmd.map AboutMsg cmd
 
@@ -48,13 +47,16 @@ module Shell =
                     [ TabControl.tabStripPlacement Dock.Top
                       TabControl.viewItems
                           [ TabItem.create
-                                [ TabItem.header "TreeView Page"
-                                  /// If you don't need to be aware of the child control's state
-                                  /// you can use the ViewBuilder to create the Host element and render it
-                                  TabItem.content (ViewBuilder.Create<TreeViewPage.Host>([])) ]
+                              [ TabItem.header "TreeView Page"
+                                /// If you don't need to be aware of the child control's state
+                                /// you can use the ViewBuilder to create the Host element and render it
+                                TabItem.content (ViewBuilder.Create<TreeViewPage.Host>([])) ]
                             TabItem.create
                                 [ TabItem.header "User Profiles Page"
                                   TabItem.content (ViewBuilder.Create<UserProfiles.Host>([])) ]
+                            TabItem.create
+                                [ TabItem.header "Connection"
+                                  TabItem.content (ViewBuilder.Create <PoGen.ConnectionPage.Host())) ]
                             TabItem.create
                                 [ TabItem.header "About"
                                   /// Use your child control's view function to render it, also don't forget to compose
