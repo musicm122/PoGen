@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Extensions.fs" />
+    <Compile Include="Models.fs" />
+    <Compile Include="Users.fs" />
+    <Compile Include="Library.fs" />
+    <Compile Include="Validation.fs" />
+    <Compile Include="CSharpFormatting.fs" />
+    <Compile Include="Generator.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Dapper.FSharp" Version="1.10.0" />
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+</Project>

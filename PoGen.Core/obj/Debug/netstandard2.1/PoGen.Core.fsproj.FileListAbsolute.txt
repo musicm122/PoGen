@@ -1,0 +1,8 @@
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/bin/Debug/netstandard2.1/PoGen.Core.deps.json
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/bin/Debug/netstandard2.1/PoGen.Core.dll
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/bin/Debug/netstandard2.1/PoGen.Core.pdb
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/Debug/netstandard2.1/PoGen.Core.fsprojAssemblyReference.cache
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/Debug/netstandard2.1/PoGen.Core.AssemblyInfoInputs.cache
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/Debug/netstandard2.1/PoGen.Core.AssemblyInfo.fs
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/Debug/netstandard2.1/PoGen.Core.dll
+/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/Debug/netstandard2.1/PoGen.Core.pdb

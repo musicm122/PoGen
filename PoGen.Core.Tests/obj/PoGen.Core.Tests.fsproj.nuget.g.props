@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/terrancesmith/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/terrancesmith/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)yolodev.expecto.testsdk/0.9.2/build/netcoreapp2.1/YoloDev.Expecto.TestSdk.props" Condition="Exists('$(NuGetPackageRoot)yolodev.expecto.testsdk/0.9.2/build/netcoreapp2.1/YoloDev.Expecto.TestSdk.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost/16.6.1/build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost/16.6.1/build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/16.6.1/build/netstandard1.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/16.6.1/build/netstandard1.0/Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/16.6.1/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/16.6.1/build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/terrancesmith/.nuget/packages/fsharp.core/4.7.1</PkgFSharp_Core>
+    <PkgExpecto Condition=" '$(PkgExpecto)' == '' ">/Users/terrancesmith/.nuget/packages/expecto/8.13.2</PkgExpecto>
+    <PkgYoloDev_Expecto_TestSdk Condition=" '$(PkgYoloDev_Expecto_TestSdk)' == '' ">/Users/terrancesmith/.nuget/packages/yolodev.expecto.testsdk/0.9.2</PkgYoloDev_Expecto_TestSdk>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/terrancesmith/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+    <PkgMicrosoft_NET_Test_Sdk Condition=" '$(PkgMicrosoft_NET_Test_Sdk)' == '' ">/Users/terrancesmith/.nuget/packages/microsoft.net.test.sdk/16.6.1</PkgMicrosoft_NET_Test_Sdk>
+    <PkgExpecto_VisualStudio_TestAdapter Condition=" '$(PkgExpecto_VisualStudio_TestAdapter)' == '' ">/Users/terrancesmith/.nuget/packages/expecto.visualstudio.testadapter/10.0.2</PkgExpecto_VisualStudio_TestAdapter>
+  </PropertyGroup>
+</Project>

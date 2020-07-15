@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen/PoGen.fsproj": {}
+  },
+  "projects": {
+    "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/PoGen.Core.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/PoGen.Core.fsproj",
+        "projectName": "PoGen.Core",
+        "projectPath": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/PoGen.Core.fsproj",
+        "packagesPath": "/Users/terrancesmith/.nuget/packages/",
+        "outputPath": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/terrancesmith/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/terrancesmith/.dotnet/NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )",
+              "generatePathProperty": true
+            },
+            "Dapper.FSharp": {
+              "target": "Package",
+              "version": "[1.10.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[3.3.3, )",
+              "generatePathProperty": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen/PoGen.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen/PoGen.fsproj",
+        "projectName": "PoGen",
+        "projectPath": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen/PoGen.fsproj",
+        "packagesPath": "/Users/terrancesmith/.nuget/packages/",
+        "outputPath": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/terrancesmith/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "/Users/terrancesmith/.dotnet/NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/PoGen.Core.fsproj": {
+                "projectPath": "/Users/terrancesmith/Projects/ClientWork/HackerFerretSoftware/PoGen/PoGen/PoGen.Core/PoGen.Core.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.9.7, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.1, )",
+              "generatePathProperty": true
+            },
+            "JaggerJo.Avalonia.FuncUI": {
+              "target": "Package",
+              "version": "[0.4.0, )",
+              "generatePathProperty": true
+            },
+            "JaggerJo.Avalonia.FuncUI.DSL": {
+              "target": "Package",
+              "version": "[0.4.0, )",
+              "generatePathProperty": true
+            },
+            "JaggerJo.Avalonia.FuncUI.Elmish": {
+              "target": "Package",
+              "version": "[0.4.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
